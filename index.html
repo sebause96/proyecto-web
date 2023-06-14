@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="Hoja de estilos.css" />
+    <title>Mi portafolio</title>
+  </head>
+
+  
+  <body>
+    <main>
+      <header>
+        <nav>
+          <div class="container">
+            <div class="logo">
+              <a href="index.html"><img src="img/LOGO.png" class="shape square" alt="" /></a>
+            </div>
+
+
+            <div class="links">
+              <ul>
+                <li>
+                  <a href="#servicios">Servicios</a>
+                </li>
+                <li>
+                  <a href="#tienda">Tienda</a>
+                </li>
+                <li>
+                  <a href="#testimonios">Testimonios</a>
+                </li>
+                <li>
+                  <a 
+                     href="#contacto">Ubicanos</a>
+                </li>
+                <li>
+                  <a
+                    href="https://wa.me/+573185590884"
+                    target="_blank"
+                    class="active"
+                    >WhatsApp</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <!-- Menu hamburguesa para agregar en movil -->
+            <div class="hamburger-menu">
+              <div class="bar"></div>
+            </div>
+          </div>
+        </nav>
+
+        
+        <!-- Contenido para el header -->
+        <div class="header-content">
+          <div class="container grid-2">
+            <div class="column-1">
+              <!-- Titulo principal -->
+              <h1 class="header-title">Bigotes</h1>
+              <h2 class="header-caption">Tienda veterinaria</h2>
+              <p class="text">
+                Brindamos el mejor cuidado y bienestar para tus
+                queridos compañeros, con servicios veterinarios y
+                una amplia selección de productos de alta calidad.
+                <span><br><b> ¡Confía en nosotros para cuidar a tus mascotas! 😺🐶 </b> </span> 
+              </p>
+            </div>
+            <!-- Imagen principal para el header -->
+            <div class="column-2 image">
+              <img
+                src="./img/puntos_banner.png"
+                class="points points2"
+                alt=""
+              />
+              <img src="./img/perrito2.png" class="img-element z-index" alt="" />
+            </div>
+          </div>
+        </div>
+      </header>
+
+
+      <!-- Sección de servicios -->
+
+      
+      <section class="services section" id="servicios">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title=>Servicios</h3>
+            <p class="text">
+              Cuidado integral y productos especializados
+              <br>para el bienestar de tus mascotas
+            </p>
+          </div>
+
+          <div class="cards">
+            <div class="card-wrap">
+              <div class="card">
+                <div class="card-content z-index">
+                  <img src="./img/baño.png" class="foto_servicio" alt="" />
+                  <h3 class="title-sm">Baño para <br> perros y gatos</h3>
+                  <p class="text">
+                    Limpieza y cuidado profesional para perros y
+                    gatos en nuestro servicio de baño especializado. 
+                  </p>
+                  <a href="https://wa.me/+573185590884" class="btn small">Agenda cita</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-wrap">
+              <div class="card">
+                <div class="card-content z-index">
+                  <img src="./img/tienda.png" class="foto_servicio" alt="" />
+                  <h3 class="title-sm">Tienda de alimentos <br>y accesorios</h3>
+                  <p class="text">
+                    Selección de productos de
+                    calidad, desde alimentos saludables hasta accesorios y juguetes
+                  </p>
+                  <a href="#tienda" class="btn small">Ver tienda</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- Sección de tienda -->
+
+
+      <section class="portfolio section" id="tienda">
+        <div class="background-bg">
+          <div class="overlay overlay-sm">
+            <img
+              src="./img/shapes/half-circle.svg"
+              class="shape half-circle1"
+              alt=""
+            />
+            <img
+              src="./img/shapes/half-circle.svg"
+              class="shape half-circle2"
+              alt=""
+            />
+            <img src="./img/shapes/square.svg" class="shape square" alt="" />
+            <img src="./img/shapes/wave.svg" class="shape wave" alt="" />
+            <img src="./img/shapes/circle.svg" class="shape circle" alt="" />
+            <img
+              src="./img/shapes/triangle.svg"
+              class="shape triangle"
+              alt=""
+            />
+            <img src="./img/shapes/x.svg" class="shape xshape" alt="" />
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title">Tienda</h3>
+          </div>
+
+          <div class="section-body">
+            <div class="filter button-group">
+              <button class="filter-btn active" data-filter="*">Todo</button>
+              <button class="filter-btn" data-filter=".ui">Alimentos</button>
+              <button class="filter-btn" data-filter=".webdev">Medicamentos</button>
+              <button class="filter-btn" data-filter=".appdev">Juguetes</button>
+              <button class="filter-btn" data-filter=".logo-design">Accesorios</button>
+              
+            </div>
+
+            <div class="grid">
+              <div class="grid-item logo-design">
+                <div class="gallery-image">
+                  <img src="./img/comidagato.jpg" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Alimento para gato</h3>
+                      <h5>Comprar</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item webdev">
+                <div class="gallery-image">
+                  <img src="./img/comidaperro.jpg" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Alimento para perro</h3>
+                      <h5>Comprar</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item ui webdev">
+                <div class="gallery-image">
+                  <img src="./img/medicamentoperro.jpg" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Medicamento para perro</h3>
+                      <h5>Comprar</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item ui">
+                <div class="gallery-image">
+                  <img src="./img/medicamentogato.jpg" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Medicamento para gato</h3>
+                      <h5>Comprar</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item logo-design">
+                <div class="gallery-image">
+                  <img src="./img/juegosanimales.jpg" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Juguetes</h3>
+                      <h5>Comprar</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item appdev">
+                <div class="gallery-image">
+                  <img src="./img/accesorios.jpg" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Accesorios</h3>
+                      <h5>Comprar</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item logo-design">
+                <div class="gallery-image">
+                  <img src="./img/cama.png" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Camas</h3>
+                      <h5>Comprar</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item appdev ui">
+                <div class="gallery-image">
+                  <img src="./img/guacal.jpg" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Guacal</h3>
+                      <h5>Comprar</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item ui webdev">
+                <div class="gallery-image">
+                  <img src="./img/correas.png" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Correas</h3>
+                      <h5>Comprar</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- Sección testimonios -->
+
+
+      <section class="testimonials section" id="testimonios">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="Clientes">
+              Testimonios
+            </h3>
+          </div>
+
+          <div class="testi-content grid-2">
+            <div class="column-1 reviews">
+              <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide review">
+                    <i class="fas fa-quote-left quote"></i>
+                    <div class="rate">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+
+                    <p class="review-text">
+                      Bigotes es simplemente excepcional. Su equipo 
+                      amable y conocedor, junto con productos de calidad
+                      y atención veterinaria confiable, hacen de ellos la
+                      mejor opción para el cuidado de mi mascota. ¡Recomiendo
+                      Bigotes a todos los dueños de mascotas sin dudarlo!
+                    </p>
+
+                    <div class="review-info">
+                      <h3 class="review-name">Marcela Gomez</h3>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide review">
+                    <i class="fas fa-quote-left quote"></i>
+                    <div class="rate">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+
+                    <p class="review-text">
+                      Bigotes ofrece un excelente servicio de baño y corte
+                      de cabello para perros. Su atención profesional y
+                      cuidado personalizado han dejado a mi perro luciendo
+                      y sintiéndose genial. ¡Recomiendo Bigotes para mimar a
+                      tu mascota!
+                    </p>
+
+                    <div class="review-info">
+                      <h3 class="review-name">Pedro Perea</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="column-2 image">
+              <img src="./img/gato_feliz.webp" alt="" class="img-element" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- Sección de contacto -->
+
+
+      <section class="contact" id="contacto">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3199.8248946464178!2d-76.5267238!3d3.3681955!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a17491d2a5f9%3A0xf06c44da2d3c8a74!2sCentro%20Comercial%20Jard%C3%ADn%20Plaza!5e1!3m2!1ses-419!2sco!4v1686719645738!5m2!1ses-419!2sco"
+          width="100%"
+          height="350"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <div class="container">
+          <div class="contact-box">
+            <div class="contact-info">
+              <h3 class="title">Contáctanos</h3>
+              <p class="text">
+                Encuentranos directamente en la sede principal.
+                <br> O déjanos tus datos para reservar tu cita.
+              </p>
+              <div class="information-wrap">
+                <div class="information">
+                  <div class="contact-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                  </div>
+                  <p class="info-text">CC. Jardín Plaza</p>
+                </div>
+
+                <div class="information">
+                  <div class="contact-icon">
+                    <i class="fas fa-paper-plane"></i>
+                  </div>
+                  <p class="info-text">info@bigotes.com</p>
+                </div>
+
+                <div class="information">
+                  <div class="contact-icon">
+                    <i class="fas fa-phone-alt"></i>
+                  </div>
+                  <p class="info-text">3185590884</p>
+                </div>
+              </div>
+            </div>
+
+            <form class="contact-form">
+              <h3 class="title">Separa una cita</h3>
+              <div class="row">
+                <input type="text" class="contact-input" placeholder="Nombre" />
+                <input
+                  type="text"
+                  class="contact-input"
+                  placeholder="Apellido"
+                />
+              </div>
+
+              <div class="row">
+                <input
+                  type="text"
+                  class="contact-input"
+                  placeholder="Celular"
+                />
+                <input type="email" class="contact-input" placeholder="Email" />
+              </div>
+
+              <div class="row">
+                <textarea
+                  name="message"
+                  class="contact-input textarea"
+                  placeholder="Mensaje"
+                ></textarea>
+              </div>
+              <a href="#" class="btn">Enviar</a>
+            </form>
+          </div>
+        </div>
+      </section>
+
+
+    <!-- Sección pie de página -->
+
+
+    <footer class="footer">
+      <div class="container">
+        <div class="grid-4">
+          <div class="grid-4-col footer-about">
+              <img src="./img/LOGO.png" alt="" />
+            </p>
+          </div>
+
+          <div class="grid-4-col footer-links">
+            <h3 class="title-sm">Servicios</h3>
+          </div>
+
+          <div class="grid-4-col footer-links">
+            <h3 class="title-sm">Tienda</h3>
+          </div>
+
+          <div class="grid-4-col footer-newstletter">
+            <h3 class="title-sm">Testimonios</h3>
+          </div>
+          
+        </div>
+
+        <div class="bottom-footer">
+          <div class="copyright">
+            <p class="text">
+              Copyright&copy;2023 Todos los derechos reservados | Hecho por
+              <span class="split-text" data-text="FORUM"
+                ><a href="#"> Sebastian Ausecha </a></span
+              >
+            </p>
+          </div>
+
+          <div class="followme-wrap">
+            <div class="followme">
+              <h3>Sígenos</h3>
+              <span class="footer-line"></span>
+              <div class="social-media">
+                <a href="https://www.facebook.com/">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://twitter.com/">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com/">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="back-btn-wrap">
+              <a href="#" class="back-btn">
+                <i class="fas fa-chevron-up"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
